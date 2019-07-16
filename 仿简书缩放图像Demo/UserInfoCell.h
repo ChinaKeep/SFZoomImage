@@ -2,8 +2,8 @@
 //  UserInfoCell.h
 //  JSHeaderView
 //
-//  Created by 雷亮 on 16/8/1.
-//  Copyright © 2016年 Leiliang. All rights reserved.
+//  Created by 随风流年 on 16/8/1.
+//  Copyright © 2016年 随风流年. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

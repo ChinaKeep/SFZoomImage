@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA3043C622DD7A9200D02DDC /* header@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA3043C522DD7A9200D02DDC /* header@2x.jpg */; };
+		CA3043C922DD7BD800D02DDC /* UserInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3043C722DD7BD700D02DDC /* UserInfoCell.m */; };
 		CA68ECF322DC884900198724 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA68ECF222DC884900198724 /* AppDelegate.m */; };
 		CA68ECF622DC884900198724 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA68ECF522DC884900198724 /* ViewController.m */; };
 		CA68ECF922DC884900198724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA68ECF722DC884900198724 /* Main.storyboard */; };
@@ -16,6 +18,7 @@
 		CA68ED0422DC884B00198724 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA68ED0322DC884B00198724 /* main.m */; };
 		CA68ED0E22DC884B00198724 /* _______DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA68ED0D22DC884B00198724 /* _______DemoTests.m */; };
 		CA68ED1922DC884B00198724 /* _______DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA68ED1822DC884B00198724 /* _______DemoUITests.m */; };
+		CA68ED2822DC88A600198724 /* SFZoomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA68ED2722DC88A600198724 /* SFZoomImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA3043C522DD7A9200D02DDC /* header@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "header@2x.jpg"; sourceTree = "<group>"; };
+		CA3043C722DD7BD700D02DDC /* UserInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoCell.m; sourceTree = "<group>"; };
+		CA3043C822DD7BD700D02DDC /* UserInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoCell.h; sourceTree = "<group>"; };
 		CA68ECEE22DC884900198724 /* 仿简书缩放图像Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿简书缩放图像Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA68ECF122DC884900198724 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA68ECF222DC884900198724 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +59,8 @@
 		CA68ED1422DC884B00198724 /* 仿简书缩放图像DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿简书缩放图像DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA68ED1822DC884B00198724 /* _______DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______DemoUITests.m"; sourceTree = "<group>"; };
 		CA68ED1A22DC884B00198724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA68ED2622DC88A600198724 /* SFZoomImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFZoomImageView.h; sourceTree = "<group>"; };
+		CA68ED2722DC88A600198724 /* SFZoomImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFZoomImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,16 +111,21 @@
 		CA68ECF022DC884900198724 /* 仿简书缩放图像Demo */ = {
 			isa = PBXGroup;
 			children = (
+				CA3043C522DD7A9200D02DDC /* header@2x.jpg */,
 				CA68ECF122DC884900198724 /* AppDelegate.h */,
 				CA68ECF222DC884900198724 /* AppDelegate.m */,
 				CA68ECF422DC884900198724 /* ViewController.h */,
 				CA68ECF522DC884900198724 /* ViewController.m */,
+				CA3043C822DD7BD700D02DDC /* UserInfoCell.h */,
+				CA3043C722DD7BD700D02DDC /* UserInfoCell.m */,
 				CA68ECF722DC884900198724 /* Main.storyboard */,
 				CA68ECFD22DC884B00198724 /* Assets.xcassets */,
 				CA68ECFF22DC884B00198724 /* LaunchScreen.storyboard */,
 				CA68ED0222DC884B00198724 /* Info.plist */,
 				CA68ED0322DC884B00198724 /* main.m */,
 				CA68ECFA22DC884900198724 /* _______Demo.xcdatamodeld */,
+				CA68ED2622DC88A600198724 /* SFZoomImageView.h */,
+				CA68ED2722DC88A600198724 /* SFZoomImageView.m */,
 			);
 			path = "仿简书缩放图像Demo";
 			sourceTree = "<group>";
@@ -241,6 +254,7 @@
 				CA68ED0122DC884B00198724 /* LaunchScreen.storyboard in Resources */,
 				CA68ECFE22DC884B00198724 /* Assets.xcassets in Resources */,
 				CA68ECF922DC884900198724 /* Main.storyboard in Resources */,
+				CA3043C622DD7A9200D02DDC /* header@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA3043C922DD7BD800D02DDC /* UserInfoCell.m in Sources */,
 				CA68ECFC22DC884900198724 /* _______Demo.xcdatamodeld in Sources */,
 				CA68ECF622DC884900198724 /* ViewController.m in Sources */,
 				CA68ED0422DC884B00198724 /* main.m in Sources */,
+				CA68ED2822DC88A600198724 /* SFZoomImageView.m in Sources */,
 				CA68ECF322DC884900198724 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

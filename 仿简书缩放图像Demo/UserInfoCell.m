@@ -2,8 +2,8 @@
 //  UserInfoCell.m
 //  JSHeaderView
 //
-//  Created by 雷亮 on 16/8/1.
-//  Copyright © 2016年 Leiliang. All rights reserved.
+//  Created by 随风流年 on 16/8/1.
+//  Copyright © 2016年 随风流年. All rights reserved.
 //
 
 #import "UserInfoCell.h"
@@ -34,7 +34,7 @@
     if (!_nameLabel) {
         _nameLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 20)];
         _nameLabel.center = CGPointMake(kScreenWidth / 2, 60);
-        _nameLabel.text = @"leiliang";
+        _nameLabel.text = @"随风流年";
         _nameLabel.textAlignment = 1;
         _nameLabel.backgroundColor = [UIColor clearColor];
         _nameLabel.textColor = [UIColor blackColor];
@@ -47,7 +47,7 @@
     if (!_infoLabel) {
         _infoLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 300, 40)];
         _infoLabel.center = CGPointMake(kScreenWidth / 2, 99);
-        _infoLabel.text = @"一个逗比程序员，做一个段子界最好的iOS开发者\n\n写了3638字，获得62个喜欢";
+        _infoLabel.text = @"一个程序员\n\n做一个最好的iOS开发者";
         _infoLabel.textAlignment = 1;
         _infoLabel.backgroundColor = [UIColor clearColor];
         _infoLabel.textColor = [UIColor darkTextColor];
@@ -62,7 +62,7 @@
         _editInfoButton = [UIButton buttonWithType:UIButtonTypeCustom];
         _editInfoButton.frame = CGRectMake(0, 0, 86, 27);
         _editInfoButton.center = CGPointMake(kScreenWidth / 2, 145);
-        [_editInfoButton setTitle:@"编辑个人资料" forState:UIControlStateNormal];
+        [_editInfoButton setTitle:@"说出你的故事" forState:UIControlStateNormal];
         _editInfoButton.titleLabel.font = [UIFont boldSystemFontOfSize:11];
         [_editInfoButton setTitleColor:HEXCOLOR(0x88e47a) forState:UIControlStateNormal];
         _editInfoButton.layer.borderColor = HEXCOLOR(0x88e47a).CGColor;
